@@ -3,6 +3,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  font-size: 16px;
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
   border-radius: 2px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   margin: 30px auto;
-  width: 50%;
+  width: 60%;
   text-align: center;
 }
 
@@ -24,9 +25,11 @@ body {
 
 .bg-black {
   background-color: none;
-  border-color: #9F9AA4;
-  color: #9F9AA4;
+  border-color: #B7372D;
+  color: #B7372D;
 }
+
+
 
 /*a {
   text-decoration: none;
@@ -40,19 +43,19 @@ a:hover {
 
 @media (max-width: 960px) {
   .container .card .footer {
-    width: 700px;
+    width: 850px;
   }
 }
 
 @media (max-width: 720px) {
   .container .card .footer {
-    width: 500px;
+    width: 700px;
   }
 }
 
 @media (max-width: 540px) {
   .container .card .footer {
-    width: 300px;
+    width: 500px;
   }
 }
 
@@ -76,7 +79,7 @@ div {
   border-radius: 2px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   margin: 30px auto;
-  width: 50%;
+  width: 60%;
   text-align: center
 }
 
