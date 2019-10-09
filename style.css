@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300|Nunito:400,700&display=swap" rel="stylesheet);
+@import url(<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">);
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 30px auto;
+  width: 50%;
+  text-align: center;
+}
+
+/*.btn-blue {
+  text-decoration: none;
+  background-color: gray;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: white;
+}*/
+
+.bg-black {
+  background-color: none;
+  border-color: #9F9AA4;
+  color: #9F9AA4;
+}
+
+/*a {
+  text-decoration: none;
+  color: #25152D;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #25152D
+}*/
+
+@media (max-width: 960px) {
+  .container .card .footer {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container .card .footer {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container .card .footer {
+    width: 300px;
+  }
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #544763;
+  font-size: 40px;
+}
+
+h2 {
+  color: #343633;
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 30px auto;
+  width: 50%;
+  text-align: center
+}
+
+#logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 150px;
+  margin: 20px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.fab {
+  font-size: 30px;
+  color: #544763;
+}
+
+.fab:hover {
+  opacity: 0.5;
+}
+
+#footer h2 {
+  font-size: 28px;
+  margin: 7px 0px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 16px;
+}
